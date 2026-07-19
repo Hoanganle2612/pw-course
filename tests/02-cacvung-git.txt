@@ -1,0 +1,29 @@
+a. Tạo 3 file: file1, file2, file3
+Working Directory: file1, file2, file3
+Staging Area:
+Repository:
+
+b. Chạy lệnh: git init (Chỉ khởi tạo repo)
+Working Directory: file1, file2, file3
+Staging Area:
+Repository:
+
+c. Chạy lệnh: git commit -m"init project" => Lỗi vì trong Staging không có data
+Working Directory: file1, file2, file3
+Staging Area:
+Repository:
+
+d. Chạy lệnh: git add file1
+Working Directory: file2, file3
+Staging Area: file1
+Repository:
+
+e. Chạy lệnh: git commit -m"add file1"
+Working Directory: file2, file3
+Staging Area:
+Repository: file1
+
+f. Chạy lệnh: git commit -m"add file" => Lỗi vì staging không có data
+Working Directory: file2, file3
+Staging Area:
+Repository: file1
