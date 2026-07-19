@@ -1,0 +1,10 @@
+git init
+Khởi tạo một repository Git mới.
+
+git add <file_name>: Đưa một file cụ thể từ vùng working directory sang Stagging
+
+git add . Đưa toàn bộ file trong working directory sang stagging
+Tương tự git add <file_name> nhưng áp dụng cho tất cả các file đã thay đổi (mới, sửa, xóa) trong thư mục hiện tại và các thư mục con, đưa hết vào staging area cùng lúc.
+
+git commit -m "message" Câu lệnh đưa toàn bộ dữ liệu trong vùng Stagging đóng gói thành 1 commit ở local repo.
+ -m cho phép add 1 mô tả cho commit trực tiếp ngay trên lệnh.
